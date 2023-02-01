@@ -1,0 +1,173 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.banner {
+    background-image: url(header-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    font-size: 70px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    flex: 1;
+}
+
+
+.menu {
+    flex: 4;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.menu a:hover {
+    background-color: #f2f2f2;
+}
+
+/* Main Content Styles */
+.main_content {
+    padding: 20px;
+}
+
+#task {
+    height: 300px;
+}
+
+#task img {
+    float: right;
+    margin-left: 30px;
+    width: 300px;
+    height: 210px;
+}
+
+#requirements {
+    padding-top: 70px;
+}
+
+#main-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.topic {
+    color: #333;
+    font-size: 32px;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+aside {
+    margin: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1E1E1E;
+    color: #fff;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  
+  .categories {
+    margin-left: 20px;
+  }
+
+  .quick_links {
+    margin-right: 20px;
+  }
+
+  .quick_links li {
+    padding-right: 10px;
+  }
+
+
+.categories a {
+    color: #fff;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+ 
+.categories a:hover {
+    color: #0077C9;
+}
+
+.quick_links a:hover{
+    color: #0077C9;
+}
+
+.quick_links a {
+    color: #fff;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+  
+
